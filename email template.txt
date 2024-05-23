@@ -1,0 +1,12 @@
+Dear {Employee_Name},
+
+Attached is your payslip for the month of {Month}. Your net salary for this month is: {Net_Salary_Amount}.
+
+If you have any questions or concerns regarding your salary or deductions, please don't hesitate to reach out to our HR department.
+
+Thank you for your hard work and dedication. Below is the attached payslip.
+
+Best regards,
+XYZ,
+HR,
+Company Name
