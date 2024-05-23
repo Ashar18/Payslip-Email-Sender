@@ -146,7 +146,7 @@ def send_mail(email_id,email_pass,payslip_pdf,emp_sheet,email_template,subject,m
               break
             
             count += 1
-            
+    shutil.rmtree(out_folder)        
     return count
 
 
@@ -171,7 +171,7 @@ def main():
         # try:
             if email_id and email_pass and payslip_pdf and emp_sheet and email_template and subject and month and year:
                 count = send_mail(email_id, email_pass, payslip_pdf, emp_sheet, email_template, subject, month, year)
-                st.success(f"{count} emails sent successfully!")
+                st.success(f"Done! {count} emails sent successfully!")
             else:
                 st.error("Please fill in all the required fields.")
         # except:
