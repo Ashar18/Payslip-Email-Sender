@@ -43,18 +43,17 @@ Main script to run the Streamlit application. It contains the following key func
 **main**: Streamlit interface for user input and triggering the email sending process.
 
 ## Dependencies
-**os**
-
-**re**
-**pdfplumber**
-**pandas**
-**numpy**
-**PyPDF2**
-**smtplib**
-**email.mime.multipart**
-**email.mime.base**
-**email.mime.text**
-**streamlit**
+**os**, 
+**re**, 
+**pdfplumber**, 
+**pandas**, 
+**numpy**, 
+**PyPDF2**, 
+**smtplib**, 
+**email.mime.multipart**, 
+**email.mime.base**, 
+**email.mime.text**, 
+**streamlit**, 
 **shutil**
 
 ## Note
