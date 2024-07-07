@@ -44,6 +44,7 @@ Main script to run the Streamlit application. It contains the following key func
 
 ## Dependencies
 **os**
+
 **re**
 **pdfplumber**
 **pandas**
@@ -63,6 +64,8 @@ Main script to run the Streamlit application. It contains the following key func
 
 ## Contributing
 Feel free to submit issues and enhancement requests.
+
+
 
 Developed by **Ashar Nadeem**
 
