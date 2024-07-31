@@ -146,6 +146,7 @@ def send_mail(email_id, email_pass, payslip_pdf, emp_sheet, email_template, subj
                 st.error("Wrong username and password !!!")
                 break
                 
+        shutil.rmtree(out_folder)       
         return count,total_pages,data_lst
     
     except:
